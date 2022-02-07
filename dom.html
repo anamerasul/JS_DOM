@@ -15,29 +15,49 @@
         <main>
                   <section>
                   <article>
-                                    <h3>myawesome blog -1
+                                    <h3>myawesome blog -1</h3>
                                                       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, facere. Explicabo, alias dolor. Repudiandae provident excepturi, necessitatibus aliquid est eligendi eius quas quisquam pariatur suscipit quaerat esse omnis magnam vero.</p>
-                                    </h3>
+                                    
                   </article>
                   <article>
-                                    <h3>myawesome blog -2
+                                    <h3>myawesome blog -2</h3>
                                                       <p>Facilis eum fugiat magni et dolor officiis porro corrupti delectus fuga labore! Repellendus itaque numquam debitis at eius. Illum ipsam sunt odio adipisci velit beatae animi optio nulla nesciunt veniam!</p>
-                                    </h3>
+                                    
                   </article>
                   <article>
-                                    <h3>myawesome blog -3
+                                    <h3>myawesome blog -3</h3>
                                                       <p>Blanditiis quas eos nobis similique iusto deserunt perferendis facilis quo omnis, sit debitis doloribus saepe odio dolorem commodi aliquid suscipit odit a laudantium quaerat cupiditate! Natus laboriosam est adipisci aperiam.</p>
                                     </h3>
                   </article>
                   <article>
-                                    <h3>myawesome blog -4
-                                                      <p>Blanditiis quas eos nobis similique iusto deserunt perferendis facilis quo omnis, sit debitis doloribus saepe odio dolorem commodi aliquid suscipit odit a laudantium quaerat cupiditate! Natus laboriosam est adipisci aperiam.</p>
-                                    </h3>
+                                    <h3>myawesome blog -4</h3>
+                                                      <p>Blanditiisrt quas eos nobis similique iusto deserunt perferendis facilis quo omnis, sit debitis doloribus saepe odio dolorem commodi aliquid suscipit odit a laudantium quaerat cupiditate! Natus laboriosam est adipisci aperiam.</p>
+                                    
                   </article>
                   </section>
         </main>
         <script>
-                          console.log(document.body);
+                // const student={
+                //         name:"kismolali",
+                //         age=15,
+                //         height=64
+                // }
+                const student={name:"kismol ali",age:16,height:68}
+                        //   console.log(document.body);
+                        const blogTitle=document.getElementsByTagName('h3');
+                        console.log(blogTitle);
+
+                        for(const h3 of blogTitle){
+                                // console.log(h3);
+                                console.log(h3.innerText);
+                        }
+
+                        const blogDetails =document.getElementsByTagName('p');
+                        for(const p of blogDetails){
+                                // console.log(p);
+                        
+                                console.log(p.innerText);
+                        }
         </script>          
 </body>
 </html>
